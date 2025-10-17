@@ -105,7 +105,7 @@ Starting from 0.9.0, every JGraphT release is published to the Maven Central Rep
 <version>1.5.2</version>
 ```
 
-We have also started auto-publishing SNAPSHOT builds for every successful commit to master. To use the bleeding edge:
+We have also started auto-publishing SNAPSHOT builds for every successful commit to master. To use the bleeding edge
 
 ```xml
 <groupId>org.jgrapht</groupId>
