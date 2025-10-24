@@ -5,7 +5,7 @@ pipeline {
 		}
 	}
 	stages {
-		stage('Build with test') {
+		stage('Build') {
 			steps {
 				sh 'mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V'
 			}
